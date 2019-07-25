@@ -7,7 +7,7 @@
 //
 
 #import "CTViewController.h"
-
+#import "CTLoginView.h"
 @interface CTViewController ()
 
 @end
@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [[CTLoginView new]log];
+    
 }
 
 - (void)didReceiveMemoryWarning
